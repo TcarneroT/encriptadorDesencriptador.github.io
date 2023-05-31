@@ -1,0 +1,81 @@
+html,body{
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.principal{
+    background: #F3F5FC;
+    height: 100vh;
+    width: 60vw;
+}
+header{
+    height: 20vh;
+    display: flex;
+}
+header h1{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cajaTexto{
+    display: flex;
+    height: 50vh;
+}
+textarea{
+    height: 100%;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    resize: none;
+    border: none;
+    background-color: #F3F5FC;
+}
+textarea:placeholder{
+    font-family: inherit;
+    font-style: Regular;
+    
+}
+.botones{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+.botones input{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 40%;
+}
+aside{
+    box-sizing:content-box;
+    border-radius:32px ;
+    display: flex;
+    height: 100vh;
+    width: 40vw;
+    background-color: blue;
+    
+}
+.rect{
+    width: 30vw;
+    height: 90vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 32px;
+
+}
+
+.rect p {
+    height: 80vh;
+    margin: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
